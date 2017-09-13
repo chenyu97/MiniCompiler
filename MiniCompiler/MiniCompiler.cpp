@@ -174,6 +174,7 @@ int main()
 	struct Exp_t *exp = Exp_Sum_new(Exp_Sum_new(Exp_Int_new(2)
 		, Exp_Int_new(3))
 		, Exp_Int_new(4));
+
 	// print out this tree:
 	printf("the expression is:\n");
 	Exp_print(exp);
